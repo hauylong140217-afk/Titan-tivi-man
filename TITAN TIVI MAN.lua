@@ -47,6 +47,7 @@ null loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-R
 loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
   end
   })
+    
     AddButton(Tab2o, {
      Name = "forsaken",
     Callback = function()
@@ -58,6 +59,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/re
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/forsakenloader.github.io/refs/heads/main/RINGTABUBLIK.lua"))()
   end
   })
+    
     AddButton(Tab3o, {
      Name = "dead rails",
     Callback = function()
@@ -68,7 +70,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/wefwef127382/forsaken
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/autobond"))()
   end
-  })    AddButton(Tab4o, {
+  })
+    
+    AddButton(Tab4o, {
      Name = "99 night in the forest",
     Callback = function()
 	  local Settings = {
